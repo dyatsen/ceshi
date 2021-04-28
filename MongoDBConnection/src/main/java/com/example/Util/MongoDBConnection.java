@@ -15,7 +15,7 @@ public class MongoDBConnection {
 
     public void ConnectionTest() {
         Map<Object, Object> map = new HashMap<>();
-        map.put("name", "pingguo");
+        map.put("name", "xueli");
         mongoTemplate.insert(map);
     }
 }
