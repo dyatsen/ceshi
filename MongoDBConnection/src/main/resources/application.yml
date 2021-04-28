@@ -3,3 +3,7 @@ spring:
     mongodb:
       host: 192.168.110.128
       port: 27017
+      database: order # springboot-mongodb-database
+      # username: order-user
+      # password: 123456
+      # authentication-database: order # 认证数据库database名称

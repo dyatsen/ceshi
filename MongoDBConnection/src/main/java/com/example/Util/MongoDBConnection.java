@@ -14,8 +14,7 @@ public class MongoDBConnection {
     MongoTemplate mongoTemplate;
 
     public void ConnectionTest() {
-        Map<Object, Object> map = new HashMap<>();
-        map.put("name", "noNUM");
-        mongoTemplate.insert(map);
+
+//        mongoTemplate.findAll();
     }
 }
